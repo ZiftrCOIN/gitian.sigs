@@ -1,20 +1,20 @@
 --- !omap
 - out_manifest: |
-    7228e7b97ac779a3089b0099fa136b5223949dd9fde6005955046030ba6f8961  32/test_ziftrcoin-qt.exe
-    570a622b995a61ff940716bff7b0389a3c69b11d2a93fa5ac9f816aa191581e0  32/test_ziftrcoin.exe
-    04d1d6ec09ba7011af158d7504c441a50ff2cca24bad7c7c02e75fe36ab7b416  32/ziftrcoin-0.9.3-win32-setup.exe
-    c38ab58df51be0879e278643451b4a0bc842457b4cd12b545907688c6618fcbd  32/ziftrcoin-cli.exe
-    303a3d571c13ddb52e80ac0bc4700a2978322e4d2273432d8503d781a0abc7a6  32/ziftrcoin-qt.exe
-    7f86fac078027731ce0ea707722e557955650a60059dcc3ec828c573d777fe1e  32/ziftrcoind.exe
-    a4798f20d38255992988c9b57b6f8e48981e9edefe6e1a76d9ac7cd9ecbebae0  64/test_ziftrcoin-qt.exe
-    11c85dbdc0497800970cced7a1829a756f506c4a3f47654568162d0ecd31c8ab  64/test_ziftrcoin.exe
-    e369589611b6ded945641af91bae0e8e688f64f9bd32c78c8b5200e10a4120ab  64/ziftrcoin-0.9.3-win64-setup.exe
-    9aa7f750d5f8798beb6a47a676789c79a57253b702853c0e37d781a6ffae1abf  64/ziftrcoin-cli.exe
-    02b66037bf016d8eb2f2db5e63b564d27345ec634d286358176e7c2295d9b1e1  64/ziftrcoin-qt.exe
-    e99532e7506496622f9d2aab8aa6266a82a095fd7fa6a98b6d5c5332eab475b5  64/ziftrcoind.exe
-    b7207bd7a51b17c281aecf0b9b38974af23880a9d0d8da1d60819d2741b8f95f  src/ziftrcoin-0.9.3.tar.gz
+    0e301a722ebbaff81a8b6a32e4403b004310dd4eb137f29c48d3a6fdb9247e8b  32/test_ziftrcoin-qt.exe
+    eae3159a8b9247a1cb0afae24f10e813100b68cf4cd97d9fa79332ad88e8b115  32/test_ziftrcoin.exe
+    7d10bdba26260cc1f2c647157b15bcc8a7129c3b1955b9e309597445b805f187  32/ziftrcoin-0.9.3-win32-setup.exe
+    dcad4a98ff2e828fb2e3362e0acdbe669cca6a6785d5ead258ec515440a83f32  32/ziftrcoin-cli.exe
+    217e4111fc8849700def98d166c79d0b572dae9ec47eea27d13532ea1eb99e64  32/ziftrcoin-qt.exe
+    1f9f6f9675f5a1fdb0944eed281689039b01736efa868f7df919572196750bb1  32/ziftrcoind.exe
+    96d1c6b96ba15baf29c7cc73e65c928cd2bab78ea246d410e8dc299de828922e  64/test_ziftrcoin-qt.exe
+    4023b6a3b61596a082350f13d41a3bf090a4785f13822ba2b0f5139ded5aef4b  64/test_ziftrcoin.exe
+    83502095db7502b2c8c624d561e095645ba66bf31dc29a08ccf3d7296ec501c3  64/ziftrcoin-0.9.3-win64-setup.exe
+    d1f88a9654ee78e2090338e15e9b87de5beb05cf04daedfe119f34dc0ac92542  64/ziftrcoin-cli.exe
+    5752dcc64e15fcb33e2f2a2e6c9446b26c633c740de4368821cbc61e6875e09b  64/ziftrcoin-qt.exe
+    3f4b8c6e834b1980c4211c76954c33a48e91db6d7a46facd257e917c0a3ac749  64/ziftrcoind.exe
+    721ff9118b7513a4ab0945a058d70fe1b99a69e0c2c5fbf9f293168b2bfc4f18  src/ziftrcoin-0.9.3.tar.gz
 - in_manifest: |-
-    1009eda18f3c777fe97b07275fe3861bd0644ed6fc71af787ba9bbd642fd7cef  ziftrcoin-desc.yml
+    ba4ed0122a47d19fc8a2a4469e6fde20238a4c439b5a991064a9c6507cfac139  ziftrcoin-desc.yml
     963e3e5e85879010a91143c90a711a5d1d5aba992e38672cdf7b54e42c56b2f1  qt-win32-5.2.0-gitian-r3.zip
     751c579830d173ef3e6f194e83d18b92ebef6df03289db13ab77a52b6bc86ef0  qt-win64-5.2.0-gitian-r3.zip
     60dc2d3b61e9c7d5dbe2f90d5955772ad748a47918ff2d8b74e8db9b1b91c909  boost-win32-1.55.0-gitian-r6.zip
@@ -23,7 +23,7 @@
     94e9f6d861140d9130a15830eba40eba4c8c830440506ac7cc0d1e3217293c25  ziftrcoin-deps-win64-gitian-r15.zip
     e2e403e1a08869c7eed4d4293bce13d51ec6a63592918b90ae215a0eceb44cb4  protobuf-win32-2.5.0-gitian-r4.zip
     a0999037e8b0ef9ade13efd88fee261ba401f5ca910068b7e0cd3262ba667db0  protobuf-win64-2.5.0-gitian-r4.zip
-    git:d396adf58289c8f3bc5c3ad4b266b8fb2a86939f ziftrcoin
+    git:cf299165bab9b2f5775a7797f74aafdd0639db65 ziftrcoin
 - base_manifests: !omap
   - precise-amd64: |
       9a5025bf74860c93e7e452bc2c647191fdb5ecab0aca77da2690e1c4dbe9486e  accountsservice_0.6.15-2ubuntu9.7_amd64.deb
