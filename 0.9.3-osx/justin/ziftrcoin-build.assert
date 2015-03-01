@@ -1,13 +1,13 @@
 --- !omap
 - out_manifest: |
-    af7c7558db8dfa15fbfd93b77d5203140e8a939e30c9e4a59564a4825b79fd35  ZiftrCOIN-Qt.dmg
+    339deb7af8883961bf6b4a1f34012b0fda3dcbdc275f75bbbca6b812f113f856  ZiftrCOIN-Qt.dmg
 - in_manifest: |-
     0afe440ed15ccab78b1d5e274dec53f6e7da8ae1e5287f7febf78e2290c2df63  ziftrcoin-desc.yml
     512bc0622c883e2e0f4cbc3fedfd8c2402d06c004ce6fb32303cc2a6f405b6df  osx-native-depends-r3.tar.gz
     ea42d0bc7ebd7bc7c7de597734426f2174ad5023b62b464b37c8824959de1124  osx-depends-r6.tar.gz
     2b82ff22b875a96502c645212904a0555d355c9b00f80ed7b14bac3bb928ce1e  osx-depends-qt-5.2.1-r5.tar.gz
     de6757ee4b8ad59cf29e018dcf6952bfe17c41813f02a57fef8af2957062053d  MacOSX10.7.sdk.tar.gz
-    git:5e20e95aa6e9f73985ff36dad142d62072f4b61d ziftrcoin
+    git:cf299165bab9b2f5775a7797f74aafdd0639db65 ziftrcoin
 - base_manifests: !omap
   - precise-i386: |
       5ebcb985ca600ff8028dd67afb6cdd03ebb375fa8d6b46a8f337ef37b68828d5  accountsservice_0.6.15-2ubuntu9.7_i386.deb
