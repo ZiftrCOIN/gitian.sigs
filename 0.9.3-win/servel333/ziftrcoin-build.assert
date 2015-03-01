@@ -2,13 +2,13 @@
 - out_manifest: |
     375c856caa6061f16ae075e1ae9eaec484eaf661258c3a52e6d31e449a86eb1e  32/test_ziftrcoin-qt.exe
     56bd29ba7ecfbf1c99be42cd33fb998f150b0c941e5e0e7fe831c68299ccead8  32/test_ziftrcoin.exe
-    64e96676e574476727bf8f7a02150af71825dc6008033c3ebff223a33b3f6de6  32/ziftrcoin-0.9.3-win32-setup.exe
+    5b85b65748abfd62cc55f754b064126674ec621ba012ed3ba34c4157c6e1667e  32/ziftrcoin-0.9.3-win32-setup.exe
     89330e296abe073c55021a4e96f17af5ec8d6362117a7d19deb8846b514636b5  32/ziftrcoin-cli.exe
     b619448c70e0f10e3f37b564fcc001e499337d04a1cddccc228aa5716965079d  32/ziftrcoin-qt.exe
     59b99448daabf6c1d78cd827d0a91e79cf5ada5ad4a01f6bdbec7f52967c10df  32/ziftrcoind.exe
     93eb4d68b73a96bf259fb3b9b99f57a49850ab503ea3c8a7e850934c1a6bd237  64/test_ziftrcoin-qt.exe
     8eae8ca6f540ee41ceb2ffc861d4698c5dfc1a04989657b5698dc3c1b396c8e9  64/test_ziftrcoin.exe
-    cf4bd6d79c8fc2637624df38207138911ba789a3e7fff5940dc0cf6a9bb298f1  64/ziftrcoin-0.9.3-win64-setup.exe
+    07985d89b21bffef69608f0a1162c484c566fcbe9a6f109bec81f3e5d1cd06b7  64/ziftrcoin-0.9.3-win64-setup.exe
     2be7ec0a89d2cd60a078f9f2a19ba7460dea90af0d2203b10703200924502090  64/ziftrcoin-cli.exe
     83d34a2664db55d8af44bba1b1d7c624f13a6c01cc78405b1a2c049b1d8d8f9d  64/ziftrcoin-qt.exe
     b39ddf0a94b7044dc5c6425cf22b9792f836ef4327df0d9c420b047cbdb517a3  64/ziftrcoind.exe
