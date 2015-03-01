@@ -1,25 +1,25 @@
 --- !omap
 - out_manifest: |
-    a42850ea57f8c785b1e1b898f78d9bbcc8e01eb32af2b74c8542ca3afaa2f573  bin/32/test_ziftrcoin
-    2a7a852efaf7836e5e670491ba97e1db61374dc0972d7295d401fd7322042eff  bin/32/test_ziftrcoin-qt
-    c3bd666cda00103e948814a83687bd5acfbe49b7c355115271a24eddb176c76d  bin/32/ziftrcoin-cli
-    d306353ca058ea8364691c67185d949abcaace1a8fbbc4cc9eb4ab5605c87c56  bin/32/ziftrcoin-qt
-    9a8d857fafffade023a5b3248b65fc3257ec7dd73d3c31243944785c49ebb9b5  bin/32/ziftrcoind
-    7ca0c9b040f23d2c5fefb3ca86260188ec8cc9415dec300e1d24fb7b43dea5b8  bin/64/test_ziftrcoin
-    5ff11574d90fa216d82eb5d25ea74e6fcc7e4181fa40b3623ac16614c4fa42fe  bin/64/test_ziftrcoin-qt
-    8a0b3244061aeb0d0d9d91a19819fc7d75a49d21d9b69ae6cab09549be958724  bin/64/ziftrcoin-cli
-    5af2f3251163da7ff56fbd7168160a6ac99d9ddf805703c6b6c687bcc4351551  bin/64/ziftrcoin-qt
-    8714a1dd32683cb3ee4981079be2e036b2779462b84846086aac76d84b0752b3  bin/64/ziftrcoind
-    b7207bd7a51b17c281aecf0b9b38974af23880a9d0d8da1d60819d2741b8f95f  src/ziftrcoin-0.9.3.tar.gz
+    f8ca78e90dd3ef134a78e4a7d52919c4a063d43acad05eb54b38faf1683e6269  bin/32/test_ziftrcoin
+    bd61820feaebdd9031ec5c666eabdc05336b231148821f5d904fbc02f5ad7055  bin/32/test_ziftrcoin-qt
+    29db0be9207e2d7e555b2f25165c980eca670a7466247388fa6076c794234af3  bin/32/ziftrcoin-cli
+    2a5c1f1ab618bb499a182f6e7e54fa7644b0254d6000b5a8a4b8034b82ef903c  bin/32/ziftrcoin-qt
+    ccfbae274c8f08b2c4ea022bcc58248b348f77482e2f5467d7fca992a77fb102  bin/32/ziftrcoind
+    4707272261f110e4ab4fae2693e5d11b7de8265a60814da9480f54ff2bd6c90e  bin/64/test_ziftrcoin
+    65e550a3e4f76553e8b8bb4332fbf1144bb456b094b31421396848fa66d593c1  bin/64/test_ziftrcoin-qt
+    4df2a79aa364ef1458fefe855354861852594c30557529908815381ec50eea08  bin/64/ziftrcoin-cli
+    bff5e414f6232a795b918ad80ae066962c55d196a491b131703da610aaa5b037  bin/64/ziftrcoin-qt
+    7b83311ab99b87f74a8ad85094fa44f9ea68f8d5b1ed81f6314d65384d0bc0b9  bin/64/ziftrcoind
+    721ff9118b7513a4ab0945a058d70fe1b99a69e0c2c5fbf9f293168b2bfc4f18  src/ziftrcoin-0.9.3.tar.gz
 - in_manifest: |-
-    cd2741f7f03b323d0e5938ba5027b7db6d9724d55274f5ffb6a75771740bd0a6  ziftrcoin-desc.yml
+    5363281192dbbcb41e18c19179954268c2ca91c00066cd4b986076c008ea1b00  ziftrcoin-desc.yml
     b66e8374031adf8d5309c046615fe4f561c3a7e3c1f6885675c13083db0c4d3b  ziftrcoin-deps-linux32-gitian-r8.zip
     ec83deb4e81bea5ac1fb5e3f1b88cd02ca665306f0c2290ef4f19b974525005e  ziftrcoin-deps-linux64-gitian-r8.zip
     f29b7d9577417333fb56e023c2977f5726a7c297f320b175a4108cf7cd4c2d29  boost-linux32-1.55.0-gitian-r1.zip
     88232451c4104f7eb16e469ac6474fd1231bd485687253f7b2bdf46c0781d535  boost-linux64-1.55.0-gitian-r1.zip
     a8e3c61ee856320f49eec971fb9221414693b6d851bb0c65186800b1c56550da  qt-linux32-4.6.4-gitian-r1.tar.gz
     993952419517b732bd8680c4e750eee8652941fc8ef76f7f53f62c6c1dcf14ce  qt-linux64-4.6.4-gitian-r1.tar.gz
-    git:d396adf58289c8f3bc5c3ad4b266b8fb2a86939f ziftrcoin
+    git:cf299165bab9b2f5775a7797f74aafdd0639db65 ziftrcoin
 - base_manifests: !omap
   - precise-i386: |
       5ebcb985ca600ff8028dd67afb6cdd03ebb375fa8d6b46a8f337ef37b68828d5  accountsservice_0.6.15-2ubuntu9.7_i386.deb
